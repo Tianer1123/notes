@@ -193,7 +193,7 @@ endfunction
 ```
 命令执行结果如下:
 
-![shortTabLine](https://github.com/Tianer1123/hackingVim/blob/master/pic/shortTabLine.png)
+![shortTabLine](https://github.com/Tianer1123/notes/blob/master/hackingVim/pic/shortTabLine.png)
 
 在Gvim中实现以上的效果：
 
@@ -221,7 +221,7 @@ endfunction
 
 效果:
 
-![shortTabLineGvim](https://github.com/Tianer1123/hackingVim/blob/master/pic/shortTabLineGvim.png)
+![shortTabLineGvim](https://github.com/Tianer1123/notes/blob/master/hackingVim/pic/shortTabLineGvim.png)
 
 **给标签栏添加提示信息：**
 
@@ -247,7 +247,7 @@ endfunction
 
 显示效果：
 
-![infoGuiTooltip](https://github.com/Tianer1123/hackingVim/blob/master/pic/infoGuiTooltip.png)
+![infoGuiTooltip](https://github.com/Tianer1123/notes/blob/master/hackingVim/pic/infoGuiTooltip.png)
 
 ## 2.8 工作区定制
 
@@ -308,7 +308,7 @@ set ballooneval
 ```
 
 效果：
-![simpleBalloon](https://github.com/Tianer1123/hackingVim/blob/master/pic/simpleBalloon.png)
+![simpleBalloon](https://github.com/Tianer1123/notes/blob/master/hackingVim/pic/simpleBalloon.png)
 
 **示例2：**
 
@@ -355,8 +355,8 @@ set ballooneval
 ```
 
 效果：
-![foldSpellBalloon1](https://github.com/Tianer1123/hackingVim/blob/master/pic/foldSpellBalloon1.png)
-![foldSpellBalloon2](https://github.com/Tianer1123/hackingVim/blob/master/pic/foldSpellBalloon2.png)
+![foldSpellBalloon1](https://github.com/Tianer1123/notes/blob/master/hackingVim/pic/foldSpellBalloon1.png)
+![foldSpellBalloon2](https://github.com/Tianer1123/notes/blob/master/hackingVim/pic/foldSpellBalloon2.png)
 
 ### 2.8.5 使用缩写(abbreviations)
 
@@ -374,7 +374,7 @@ set ballooneval
 
 截图:
 
-![iabbreveg1](https://github.com/Tianer1123/hackingVim/blob/master/pic/iabbreveg1.gif)
+![iabbreveg1](https://github.com/Tianer1123/notes/blob/master/hackingVim/pic/iabbreveg1.gif)
 
 缩写的一些 **有趣** 的用途：
 * 纠正常见的拼写错误:
@@ -402,7 +402,7 @@ iabbrev <expr> addr <SID>AbbrAsk('addr', "your full address here")
 
 截图:
 
-![iabbrevAddrAsk](https://github.com/Tianer1123/hackingVim/blob/master/pic/iabbrevAddrAsk.png)
+![iabbrevAddrAsk](https://github.com/Tianer1123/notes/blob/master/hackingVim/pic/iabbrevAddrAsk.png)
 
 ### 2.8.6 修改按键绑定
 
@@ -539,7 +539,7 @@ iabbrev <expr> addr <SID>AbbrAsk('addr', "your full address here")
 
     截图：
 
-    ![signInformation](https://github.com/Tianer1123/hackingVim/blob/master/pic/signInformation.png)
+    ![signInformation](https://github.com/Tianer1123/notes/blob/master/hackingVim/pic/signInformation.png)
 
 3. 移除符号
 
@@ -595,7 +595,7 @@ inoremap <c-j> <ESC>/<+.\{-1,}+><cr>c/+>/e<cr>
 
 截图：
 
-![fileTemplates](https://github.com/Tianer1123/hackingVim/blob/master/pic/fileTemplates.gif)
+![fileTemplates](https://github.com/Tianer1123/notes/blob/master/hackingVim/pic/fileTemplates.gif)
 
 ### 4.1.2 把缩写作为模板
 
@@ -669,7 +669,7 @@ set dictionary+=/path/to/dictionary/file/with/words
 
 在 **插入模式** 下，输入 <kbd>Ctrl + x + k</kbd> 就会显示字典内容。如下截图：
 
-![dictCompletion](https://github.com/Tianer1123/hackingVim/blob/master/pic/dictCompletion.gif)
+![dictCompletion](https://github.com/Tianer1123/notes/blob/master/hackingVim/pic/dictCompletion.gif)
 
 按 <kbd>Ctrl + x</kbd> 进入补全模式，再按下 <kbd>Ctrl + k</kbd> 会在字典中查找关键词（k 指 keyword)
 
@@ -740,7 +740,7 @@ endfunction
 
 截图：
 
-![completeEmails](https://github.com/Tianer1123/hackingVim/blob/master/pic/completeEmails.gif)
+![completeEmails](https://github.com/Tianer1123/notes/blob/master/hackingVim/pic/completeEmails.gif)
 
 
 在返回值构成的字典中，几个关键词有特别的意思：
