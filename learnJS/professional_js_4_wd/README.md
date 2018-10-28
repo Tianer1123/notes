@@ -488,7 +488,7 @@ eval('alert('hello')');
 ```
 #### golbal对象属性
 
-![golbal_attribute](https://github.com/Tianer1123/LearnJS/blob/master/pic/golbal_attribute.png)
+![golbal_attribute](https://github.com/Tianer1123/notes/blob/master/learnJS/pic/golbal_attribute.png)
 
 #### window对象
 ``` js
@@ -503,7 +503,7 @@ window.sayColor();  // 'red'
 ### Math对象
 #### 属性
 
-![math_attribute](https://github.com/Tianer1123/LearnJS/blob/master/pic/math_attribute.png)
+![math_attribute](https://github.com/Tianer1123/notes/blob/master/learnJS/pic/math_attribute.png)
 
 #### Min(), Max()方法
 
@@ -529,7 +529,7 @@ var value = Math.floor(Math.random() * 10 + 1)
 ```
 #### 其他方法
 
-![math_func](https://github.com/Tianer1123/LearnJS/blob/master/pic/math_func.png)
+![math_func](https://github.com/Tianer1123/notes/blob/master/learnJS/pic/math_func.png)
 
 # cp6 面向对象程序设计
 ## 6.1 理解对象
