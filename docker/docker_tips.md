@@ -1,7 +1,7 @@
 Docker 容器三个概念
 ---
 
-* 镜像: 类似 .iso 镜像，只能被分享和下载。
+* 镜像: 类似 `.iso` 镜像，只能被分享和下载。
 * 容器: 打开镜像，进入的是容器，修改不会被保存，重启镜像会复原，除非保存为新的镜像。
 * 仓库: 存放镜像的地方。
 
@@ -33,7 +33,6 @@ docker attach container_id                        # 进入已打开的容器
                                                   # -m 注释
                                                   # -a 用户
                                                   # 07abdfe..be 容器ID
-                                                  # 07abdfe..be 容器ID
                                                   # 用户/创库:tag
 docker commit -m "ubuntu with vim" -a "tianer" 07abdfe..be tianer/ubuntu:vim
 
@@ -53,6 +52,7 @@ Dockerfile
 ### Dockerfile命令
 
 ``` sh
+
 FROM <image>                                    # 以哪个镜像为基础，必须为第一条命令
 FROM scratch                                    # scratch 为特殊镜像，表示已空白镜像为基础
 
@@ -76,3 +76,11 @@ WORKDIR /root/                                  # 设置工作目录为/root/
 docker build -t vim8:v1 .                       # 创建新镜像 -t 镜像:tag，. 为上下文目录
 
 ```
+
+
+Windows下docker toolbox
+---
+
+安装好后，远程连接`docker`虚拟机，账号是`docker`,密码是`tcuser`。
+
+
